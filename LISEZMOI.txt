@@ -1,0 +1,55 @@
+CAP FORME : INSTALLER L'APPLI SUR TON TELEPHONE ANDROID
+=========================================================
+
+Ce dossier contient l'appli complète. Il faut la mettre en ligne UNE FOIS
+(gratuitement), puis l'installer depuis Chrome sur ton téléphone.
+
+Fichiers à mettre en ligne (tous, au même niveau, sans les mettre dans un sous-dossier) :
+  index.html, manifest.webmanifest, sw.js, icon-192.png, icon-512.png, icon-maskable-512.png
+(LISEZMOI.txt est facultatif.)
+
+
+ETAPE 1 : METTRE L'APPLI EN LIGNE (GitHub Pages, gratuit)
+----------------------------------------------------------
+1. Crée un compte gratuit sur github.com (ou connecte-toi).
+2. Clique sur "New repository" (nouveau dépôt). Nom : capforme. Laisse-le en "Public". Valide.
+3. Dans le dépôt, clique sur "uploading an existing file", puis glisse-dépose les 6 fichiers
+   listés plus haut (dézippe d'abord l'archive sur ton ordinateur ou ton téléphone).
+   Clique sur "Commit changes".
+4. Va dans Settings > Pages. Sous "Branch", choisis "main" et le dossier "/ (root)", puis Save.
+5. Attends 1 à 2 minutes. L'adresse de ton appli s'affiche en haut de la page :
+   https://TON-PSEUDO.github.io/capforme/
+
+Variante sans GitHub : Netlify (app.netlify.com/drop). Tu glisses le dossier dézippé, et tu
+obtiens une adresse. Il peut demander de créer un compte gratuit pour la garder.
+
+
+ETAPE 2 : L'INSTALLER SUR LE TELEPHONE
+---------------------------------------
+1. Ouvre l'adresse dans Chrome sur ton Android.
+2. Touche le menu (les trois points en haut à droite).
+3. Choisis "Installer l'application" (ou "Ajouter à l'écran d'accueil").
+4. L'icône "Cap Forme" apparaît avec tes autres applis. Ouvre-la : elle s'affiche en plein
+   écran, sans la barre du navigateur, et fonctionne aussi sans connexion.
+
+
+A SAVOIR
+--------
+- Tes données (séances, rappels, poids) restent sur ton téléphone, dans cette appli.
+  Si tu changes de téléphone ou de navigateur, utilise Bilan > "Sauvegarder", puis "Restaurer".
+- Les rappels sonnent et vibrent quand l'appli est ouverte à l'écran. Pour des rappels qui
+  vibrent appli fermée, crée aussi l'événement dans Google Agenda, ou passe à la version
+  Android complète (étape suivante possible).
+- Pour mettre à jour l'appli plus tard : remplace index.html dans ton dépôt GitHub.
+  Ferme puis rouvre l'appli deux fois pour voir la nouvelle version.
+
+
+OPTION : EN FAIRE UN FICHIER .APK (vraie appli Android)
+-------------------------------------------------------
+Une fois l'adresse en ligne, va sur pwabuilder.com, colle l'adresse, clique sur "Package for stores"
+puis "Android". Tu obtiens un fichier à installer sur ton téléphone.
+
+MUSIQUES (v21)
+Le dossier "music" contient 10 morceaux de Pixabay (licence Pixabay : usage libre, sans attribution). Usage personnel.
+Auteurs : NastelBom, Atlas Audio, Bombin Sound, Kulakovka, Apalon Beats, The_Mountain, u_n8nayac5ub.
+Garde le dossier "music" à côté de index.html.
